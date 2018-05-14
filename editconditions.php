@@ -57,4 +57,19 @@ $PAGE->navbar->add(get_string('editconditions', 'local_badgeautoassigner'), $pag
 
 echo $OUTPUT->header();
 
+if ($automaticbadgeid) {
+
+
+    // Lister les conditions déjà existantes et permettre de les éditer.
+
+} else if ($badgeid) {
+
+    //Autoriser à ajouter des conditions.
+
+} else {
+
+    // BUG ?
+    // Mais afficher quelque chose pour que je puisse voir d'où vient le problème.
+}
+
 echo $OUTPUT->footer();
